@@ -1,4 +1,4 @@
-﻿fonttools==4.47.2
+fonttools==4.47.2
 kiwisolver==1.4.5
 numpy==1.26.3
 packaging==23.2
