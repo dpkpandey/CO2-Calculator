@@ -8,3 +8,5 @@ pytz==2024.1
 six==1.16.0
 watchdog==3.0.0
 zipp==3.17.0
+matplotlib==3.8.0
+matplotlib-inline==0.1.6
