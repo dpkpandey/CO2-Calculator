@@ -34,6 +34,7 @@ Alkalinity_values = np.arange(0.00, 1000, 4)
 Salinity_values = np.arange(0, 80, 0.2)
 Temp_values = np.arange(0, 100, 0.2)
 pH_values = np.arange(0, 14, 0.045)
+
 def plot_graph1(Alkalinity, Salinity, Temp, pH):
     fig, ax = plt.subplots(figsize=(14, 5))
     ax.plot(Salinity_values, expression(Alkalinity, Salinity_values, Temp, pH),
