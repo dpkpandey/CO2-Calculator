@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-
+import matplotlib
+matplotlib.use('agg')
 def expression(Alkalinity, Salinity, Temp, pH):
     return 1.22 * (Alkalinity) * 10 ** (
         (-43.6977 - 0.0129037 * (Salinity) + 1.364 * 10 ** (-4) * (Salinity) ** 2 + 2885.378 / (273.15 + Temp)
