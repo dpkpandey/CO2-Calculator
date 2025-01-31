@@ -14,11 +14,22 @@ git clone https://github.com/dpkpandey/CO2-Calculator
 cd Co2-Calculator
 pip install -r requirements.txt
 ```
+if you have a problem installing requirements.txt file then it is better to remove version 
+and create virtual environment for easy ness as this 
+```bash
+git clone https://github.com/dpkpandey/CO2-Calculator
+cd Co2-Calculator
+python -m venv myenv
+source myeve/Scripts/activate  # for Windows
+source myenve\bin\activate  # for Linux
+pip install -r requirements.txt
+```
+
 if you have a problem with name Co2-Calculator while running code just change it to Co2_Calculator for smoothness
 
 then run 
 ```bash
-streamlit co2.streamlit.py
+streamlit run co2.streamlit.py
 ```
 
 Enjoy 
