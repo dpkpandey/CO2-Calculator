@@ -5,3 +5,20 @@ then this is explanation repo for this calculator you can visualize through "[st
 Just visit there and Enjoy the calculator.
 
 
+## If you want to run locally in your computer
+Well we have easy way to do.
+Install python and
+clone this repo
+```bash
+git clone https://github.com/dpkpandey/CO2-Calculator
+cd Co2-Calculator
+pip install -r requirements.txt
+```
+if you have a problem with name Co2-Calculator while running code just change it to Co2_Calculator for smoothness
+
+then run 
+```bash
+streamlit co2.streamlit.py
+```
+
+Enjoy 
