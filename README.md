@@ -33,8 +33,9 @@ streamlit run co2.streamlit.py
 ```
 You will be locally host the calculator.
 Where after running above command you will be directly see result in webpage if not you will get  result like this in your terminal just enter that address in your webpage 
-```bash
+
 You can now view your Streamlit app in your browser.
+```bash
   Local URL: http://localhost:8502
   Network URL: http://192.168.12.100:8502
 ```
