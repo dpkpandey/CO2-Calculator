@@ -1,4 +1,5 @@
 # CO2-Calculator
+#####For theoritical explanation read Theory.md file.
 
 IF you work in aquaculture or you have aquarium and you want to measure CO2 and its relation with Alkalinity, pH, temperature, Salinity
 then this is explanation repo for this calculator you can visualize through "[streamlitCO2](https://co2calculator.streamlit.app/)"
