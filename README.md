@@ -20,9 +20,9 @@ and create virtual environment for easy ness as this
 git clone https://github.com/dpkpandey/CO2-Calculator
 cd Co2-Calculator
 python -m venv myenv
-source myeve/Scripts/activate  # for Windows
-source myenve\bin\activate  # for Linux
-pip install -r requirements.txt
+source myenv/Scripts/activate  # for Windows or myenv/Scripts/activate
+source myenv\bin\activate  # for Linux
+pip install -r new_requirements.txt
 ```
 
 if you have a problem with name Co2-Calculator while running code just change it to Co2_Calculator for smoothness
