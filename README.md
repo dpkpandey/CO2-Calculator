@@ -31,5 +31,6 @@ then run
 ```bash
 streamlit run co2.streamlit.py
 ```
+You will be locally host the calculator.
 
 Enjoy 
