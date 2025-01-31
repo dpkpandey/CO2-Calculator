@@ -6,7 +6,8 @@ This document outlines the theoretical concepts behind the CO₂ calculation and
 ## CO₂ Calculation
 The formula used to compute CO₂ concentration is:
 
-\[ CO_2 = 1.22 \times (Alkalinity) \times 10^{(-43.6977 - 0.0129037 \times (Salinity) + 1.364 \times 10^{-4} \times (Salinity)^2 + 2885.378 / (273.15 + Temp) + 7.045159 \times \log(273.15 + Temp)) - pH} \]
+\[ CO_2 = 1.22 \times (Alkalinity) \times 10^{(-43.6977 - 0.0129037 \times (Salinity) + 1.364 \times 10^{-4} \times (Salinity)^2 + 2885.378 / (273.15 + Temp) + 7.045159 \times \log(273.15 + Temp)) - pH} \]\\
+
 $$
 CO_2 = 1.22 \times (Alkalinity) \times 10^{(-43.6977 - 0.0129037 \times (Salinity) + 1.364 \times 10^{-4} \times (Salinity)^2 + 2885.378 / (273.15 + Temp) + 7.045159 \times \log(273.15 + Temp)) - pH}
 $$
